@@ -1,11 +1,14 @@
 package com.campany.testnew;
 
-public class test1 {
+public class PerfectPower {
 	public static void main(String [] args )
 	{
-		int [] sol = isPerfectPower(36);
-		System.out.println(sol[0] + "  " +  sol[1]);
-		
+		int number = 124;
+		int [] sol = isPerfectPower(number);
+		if ( sol != null )
+			System.out.println(sol[0] + "  " +  sol[1]);
+		else
+			System.out.println("there is no perfect power for number " + number);
 	}
 	
 	
