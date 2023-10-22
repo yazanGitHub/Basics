@@ -1,4 +1,4 @@
-package com.campany.testnew;
+package com.hilfreich;
 
 public class PerfectPower {
 	public static void main(String [] args )

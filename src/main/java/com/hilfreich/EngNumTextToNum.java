@@ -1,4 +1,4 @@
-package com.campany.testnew;
+package com.hilfreich;
 
 import java.util.ArrayList;
 import java.util.Arrays;

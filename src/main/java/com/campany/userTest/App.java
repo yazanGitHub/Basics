@@ -1,4 +1,4 @@
-package com.campany.testnew;
+package com.campany.userTest;
 
 import java.util.HashMap;
 import java.util.Map;

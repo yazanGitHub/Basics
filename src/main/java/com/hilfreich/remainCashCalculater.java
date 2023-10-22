@@ -1,4 +1,4 @@
-package com.campany.testnew;
+package com.hilfreich;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -33,7 +33,7 @@ public class remainCashCalculater
 		BigDecimal paid      = new BigDecimal("500.00");
 		BigDecimal itemValue = new BigDecimal("11.21");
 		BigDecimal remain    = paid.subtract(itemValue);
-		System.out.println("the paid is : " + paid + "the itemValue is : " + itemValue + "the remain is : " + remain);
+		System.out.println("the paid is : " + paid + " the itemValue is : " + itemValue + " the remain is : " + remain);
 		if (remain.intValue() < 0 )
 		{
 			System.out.println("Error please check the inputs values");
